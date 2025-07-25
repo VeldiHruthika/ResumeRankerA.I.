@@ -5,6 +5,7 @@ Introduction:
 -Resume Ranker is an AI-based Resume Scoring System that automates the process of ranking resumes based on their relevance to a provided job description. This project uses NLP and machine learning techniques to parse resumes, calculate similarity scores, and rank them accordingly.
 
 Features:
+
 1.Upload resumes in PDF format.
 
 2.Paste job description for comparison.
@@ -20,6 +21,7 @@ Features:
 7.Dark Mode Toggle in the UI for improved usability.
 
 Tools & Technologies:
+
 i.Backend: Python, Flask
 
 ii.NLP: NLTK (Natural Language Processing Toolkit)
@@ -37,20 +39,25 @@ vii.Hosting: Render (for the live demo)
 Installation & Setup:-
 
 Clone the repository:
+
 git clone https://github.com/your-username/ResumeRanker_AI.git
 cd ResumeRanker_AI
 
 Set up a virtual environment:
+
 python3 -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
 Install dependencies:
+
 pip install -r requirements.txt
 
 Run the application:
+
 python app.py
 
 Files Included:
+
 a.app.py: Main file to run the Flask application.
 
 b.resume_ranker.py: Python script to process resumes and rank them.
